@@ -1,9 +1,14 @@
 import './App.css';
+import { Home, About } from './components';
+import { Header, Footer } from './constans';
 
 function App() {
   return (
     <div className="App">
-      <h1>Himel Talukder</h1>
+      <Header />
+      <Home />
+      <About />
+      <Footer />
     </div>
   );
 }
